@@ -1,0 +1,20 @@
+declared-services:
+  Watson Assistant (formerly Conversation)-payments:
+    label: conversation
+    plan: free
+  Natural Language Understanding-payments:
+    label: natural-language-understanding
+    plan: free
+  Real-Time-payments:
+    label: real-time-payments-service
+    plan: real-time-payments-service-free-plan
+applications:
+- name: real-time-payments-chatbot
+  command: npm start
+  path: .
+  memory: 256M
+  disk_quota: 1024M
+  services:
+    - Real-Time-payments
+    - Natural Language Understanding-payments
+    - Watson Assistant (formerly Conversation)-payments
