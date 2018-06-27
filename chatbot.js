@@ -394,7 +394,11 @@ function checkForLookupRequestsRetail(data, callback) {
       var token = payload.context.result.contacts[0].token;
       var fname = payload.context.result.contact_fname;
       var lname = payload.context.result.contact_lname;
-      var amount = payload.context.result.amount + '.00';
+      var amount = payload.context.result.amount;
+      if(amount % 1 == 0) {
+        amount = amount + '.00';
+      }
+
       var account = payload.context.account.number;
       var user = payload.context.person;
 
