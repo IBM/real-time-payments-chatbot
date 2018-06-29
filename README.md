@@ -40,9 +40,13 @@ Use the ``Deploy to IBM Cloud`` button **OR** create the services and deploy the
 
 # Deploy to IBM Cloud
 
-[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/IBM/real-time-payments-chatbot)
+[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/raheel-zubairy/real-time-payments-chatbot)
 
-[steps]
+1. Press the above `Deploy to IBM Cloud` button and then click on Deploy.
+
+2. In Toolchains, click on Delivery Pipeline to watch while the app is deployed. Once deployed, the app can be viewed by clicking `View app`.
+
+3. To see the app and services created and configured for this application, use the IBM Cloud dashboard
 
 # Run the Application Locally
 Follow these steps to setup and run this code pattern. The steps are described in detail below.
