@@ -91,7 +91,7 @@ Click on the `Workspaces` tab.  Use the import icon button on the right to impor
 Choose the `workspace.json` in resource/workspace.json and click import.  
 
 <p align="center">
-  <img width="400"  src="doc-images/import-workspace..png">
+  <img width="400"  src="doc-images/import-workspace.png">
 </p>
 
 Find the Workspace ID by clicking on the context menu of the new workspace and select View details. Save this ID for later.
