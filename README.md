@@ -42,11 +42,17 @@ Use the ``Deploy to IBM Cloud`` button **OR** create the services and deploy the
 
 [![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/raheelzubairy/real-time-payments-chatbot)
 
-1. Press the above `Deploy to IBM Cloud` button and then click on Deploy.
+1. Press the above `Deploy to IBM Cloud` button and then click on Deploy.  Provide a `Name`, `Region` and `Organization` for the toolchain and the application.
 
-2. In Toolchains, click on Delivery Pipeline to watch while the app is deployed. Once deployed, the app can be viewed by clicking `View app`.
+![](doc-images/deploy-ibm-cloud.png)
 
-3. To see the app and services created and configured for this application, use the IBM Cloud dashboard
+2. In Toolchains, click on `Delivery Pipeline` to watch while the app is deployed.  Once the app is deployed, you can launch it through the app url.
+
+![](doc-images/toolchain.png)
+
+3. Navigate to IBM Cloud dashboard to find your application.  You can find app details and and services created and configured for the application
+
+![](doc-images/app.png)
 
 # Run the Application Locally
 Follow these steps to setup and run this code pattern. The steps are described in detail below.
@@ -146,7 +152,13 @@ npm start
 ```
 
 c. Test your application by going to: [http://localhost:3000/](http://localhost:3000/)
+    * Register a user and create a token for the user such as phone number or email
+    * Register another user and create a token for the user such as phone number or email
+    * Login as the first user and add the second user as a contact using their 'token'
+    * Open the chatbot by clicking the chatbot button on top
+    * Tell the bot to send money to your contact
 
+![](doc-images/bot.png)
 
 ## 6. Deploy to IBM Cloud using CLI
 
