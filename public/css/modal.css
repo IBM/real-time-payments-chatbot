@@ -18,17 +18,21 @@
 .modal div {
   border: none;
   margin-bottom: 0px;
-  background-color: #FFFFF0;
+  /* background-color: #FFFFF0; */
+  background-color: #e2f1ff;
 }
 
 /* Modal Content */
 .modal-content {
-    background-color: #FFFFF0;
+    /* background-color: #FFFFF0; */
+    background-color: #e2f1ff;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
-    height: 80%;
+    /* width: 80%;
+    height: 80%; */
+    width: 490px;
+    height: 550px;
 }
 
 /* The Close Button */
@@ -45,3 +49,13 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width : 680px) {
+  .modal-content {
+      width: 100%;
+      height: 100%;
+  }
+
+  .modal {
+      padding-top: 0px; 
+  }

@@ -20,7 +20,8 @@
   font-family: Helvetica Neue for IBM, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFF0;
+  /*background-color: #FFFFF0;*/
+  background-color: #e2f1ff;
 
 }
 
@@ -40,7 +41,8 @@
 }
 
 .chatbot {
-  height: 90%;
+  /* height: 90%;  */
+  height: 500px;
 }
 
 #view-change-button {
@@ -146,7 +148,8 @@
   color: #fff;
   letter-spacing: 0.015rem;
   line-height: 1.3125rem;
-  background: #FF8C00;
+  /* background: #FF8C00; */
+  background: #2262AD;
   border-radius: 1.25rem;
   text-align: left;
   display: inline-block;
@@ -262,7 +265,8 @@ input:-moz-placeholder {
   display: block;
   margin-left: 1.6rem;
   margin-right: 0.5rem;
-  border: 15px solid #f5f5dc;
+  /*border: 15px solid #f5f5dc; */
+  border: 15px solid #98c2fb;
   padding: 1px;
   background-color:#FFFFFF;
 }
@@ -458,3 +462,10 @@ html{
   font-weight: normal;
   font-style: normal;
 }
+
+
+@media only screen and (max-width : 680px) {
+  .chatbot {
+    /* height: 90%;  */
+    height: 90%;
+  }
