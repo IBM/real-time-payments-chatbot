@@ -155,11 +155,11 @@ npm start
 
 c. Test your application by going to: [http://localhost:3000/](http://localhost:3000/)
 
-    - Register a user and create a token for the user such as phone number or email
-    - Register another user and create a token for the user such as phone number or email
-    - Login as the first user and add the second user as a contact using their 'token'
-    - Open the chatbot by clicking the chatbot button on top
-    - Tell the bot to send money to your contact
+  - Register a user and create a token for the user such as phone number or email
+  - Register another user and create a token for the user such as phone number or email
+  - Login as the first user and add the second user as a contact using their 'token'
+  - Open the chatbot by clicking the chatbot button on top
+  - Tell the bot to send money to your contact
 
 <p align="center">
   <img width="500"  src="doc-images/bot.png">
