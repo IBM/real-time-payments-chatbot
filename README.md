@@ -46,13 +46,15 @@ Use the ``Deploy to IBM Cloud`` button **OR** create the services and deploy the
 
 ![](doc-images/deploy-ibm-cloud.png)
 
-2. In Toolchains, click on `Delivery Pipeline` to watch while the app is deployed.  Once the app is deployed, you can launch it through the app url.
+2. In Toolchains, click on `Delivery Pipeline` to watch while the app is deployed.  The logs can provide details on the deployment of the application or any issues.
 
 ![](doc-images/toolchain.png)
 
 3. Navigate to IBM Cloud dashboard to find your application.  You can find app details and and services created and configured for the application
 
 ![](doc-images/app.png)
+
+You will need to [configure Watson Assistant](#3-configure-watson-assistant) prior to launching the app.
 
 # Run the Application Locally
 Follow these steps to setup and run this code pattern. The steps are described in detail below.
@@ -152,13 +154,16 @@ npm start
 ```
 
 c. Test your application by going to: [http://localhost:3000/](http://localhost:3000/)
-    * Register a user and create a token for the user such as phone number or email
-    * Register another user and create a token for the user such as phone number or email
-    * Login as the first user and add the second user as a contact using their 'token'
-    * Open the chatbot by clicking the chatbot button on top
-    * Tell the bot to send money to your contact
 
-![](doc-images/bot.png)
+    - Register a user and create a token for the user such as phone number or email
+    - Register another user and create a token for the user such as phone number or email
+    - Login as the first user and add the second user as a contact using their 'token'
+    - Open the chatbot by clicking the chatbot button on top
+    - Tell the bot to send money to your contact
+
+<p align="center">
+  <img width="500"  src="doc-images/bot.png">
+</p>
 
 ## 6. Deploy to IBM Cloud using CLI
 
@@ -173,7 +178,7 @@ Update the `manifest.yml` file in the folder and replace with a unique name for 
       memory: 256M
       disk_quota: 1024M
       services:
-        - Real-Time-payments
+        - Real-Time-paymentsM
         - Natural Language Understanding-payments
         - Watson Assistant (formerly Conversation)-payments
     ```
