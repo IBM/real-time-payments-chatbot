@@ -1,4 +1,4 @@
-# Real-Time Payments with Chatbot
+# Create a chatbot for real-time payments
 
 In this code pattern, we will use IBM Cloud services to create a Node.js web application featuring a chatbot to send payments and provide account information. The Real-Time Payments service is used to manage user accounts and recipients, and to initiate payments. The Watson Assistant service will be used to create a dialog for the chatbot, which will process user's requests. The Natural Language Understanding service will enhance the chatbot capabilities to identify entities.
 
@@ -84,11 +84,15 @@ Launch the Watson Assistant tool by opening the service and choosing `Launch Too
 
 Click on the `Workspaces` tab.  Use the import icon button on the right to import the workspace json.
 
-![](doc-images/create-workspace.png)
+<p align="center">
+  <img width="400"  src="doc-images/create-workspace.png">
+</p>
 
 Choose the `workspace.json` in resource/workspace.json and click import.  
 
-![](doc-images/import-workspace.png)
+<p align="center">
+  <img width="400"  src="doc-images/import-workspace..png">
+</p>
 
 Find the Workspace ID by clicking on the context menu of the new workspace and select View details. Save this ID for later.
 
