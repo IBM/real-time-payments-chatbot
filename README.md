@@ -40,7 +40,7 @@ Use the ``Deploy to IBM Cloud`` button **OR** create the services and deploy the
 
 # Deploy to IBM Cloud
 
-[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/raheel-zubairy/real-time-payments-chatbot)
+[![Deploy to IBM Cloud](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/raheelzubairy/real-time-payments-chatbot)
 
 1. Press the above `Deploy to IBM Cloud` button and then click on Deploy.
 
