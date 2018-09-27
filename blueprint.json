@@ -1,0 +1,54 @@
+{
+    "name": "Real Time Payments Chatbot",
+    "description": "Create a chatbot assistant to process payments and provide account information with Watson and Real-time Payments services on IBM Cloud",
+    "thumbnailURL": "blueprint/thumbnail.svg",
+    "appIconURL": "blueprint/appicon.svg",
+    "type": "WEB",
+    "tags": [
+        "devex"
+    ],
+    "demoURL": "https://real-time-payments-chatbot.mybluemix.net/",
+    "generators": {
+        "node": [
+            "generator-starterkit-content-downloader",
+            "generator-ibm-cloud-enablement",
+            "generator-ibm-service-enablement",
+            "generator-git-starterkit-credentials-builder"
+        ]
+    },
+    "generatorOptions": {
+        "generator-git-starterkit-credentials-builder": {
+            "version": "0.x.x",
+            "scope": "@arf"
+        },
+        "generator-ibm-cloud-enablement": {
+            "version": "1.0.x",
+            "options": {
+                "port": "3000"
+            }
+        },
+        "generator-ibm-service-enablement": {
+            "version": "2.3.x"
+        },
+        "generator-starterkit-content-downloader": {
+            "version": "0.x.x",
+            "scope": "@arf"
+        }
+    },
+    "requiredCapabilities": [
+        "conversation",
+        "naturalLanguageUnderstanding",
+        "realTimePaymentsService"
+    ],
+    "requiredCapabilitiesURLs": {
+        "conversation": "https://console.bluemix.net/catalog/services/conversation",
+        "naturalLanguageUnderstanding": "https://console.bluemix.net/catalog/services/natural-language-understanding",
+        "realTimePaymentsService": "https://console.bluemix.net/catalog/services/real-time-payments-service"
+    },
+    "servicePlans": {
+        "conversation": "free",
+        "naturalLanguageUnderstanding": "free",
+        "realTimePaymentsService": "real-time-payments-service-free-plan"
+    },
+    "email": "cloud@us.ibm.com"
+}
