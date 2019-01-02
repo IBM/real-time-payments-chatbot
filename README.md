@@ -1,3 +1,8 @@
+# OBSOLETE: This code pattern is obsolete
+
+> The 3rd party zelle Real Time Payments service is not operational at the moment. This repository will not be updated. We will keep the repository available for folks interested in some of the technical details. 
+
+
 # Create a chatbot for real-time payments
 
 In this code pattern, we will use IBM Cloud services to create a Node.js web application featuring a chatbot to send payments and provide account information. The Real-Time Payments service is used to manage user accounts and recipients, and to initiate payments. The Watson Assistant service will be used to create a dialog for the chatbot, which will process user's requests. The Natural Language Understanding service will enhance the chatbot capabilities to identify entities.
